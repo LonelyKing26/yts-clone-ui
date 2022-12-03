@@ -1,0 +1,16 @@
+
+.navbar{
+    background-color: #1d1d1d;
+}
+.search_yts{
+    width: 200px;
+    border-radius: 20px;
+    background-color: #1d1d1d;
+    border: 2px solid #333;
+}
+.nav-item a{
+    color: #919191;
+}
+.nav-item a:hover{
+    color: #fff;
+}
