@@ -1,6 +1,7 @@
 
 .navbar{
     background-color: #1d1d1d;
+   
 }
 .search_yts{
     width: 200px;
@@ -10,7 +11,106 @@
 }
 .nav-item a{
     color: #919191;
+    font-weight: 600;
+    font-size: 14px;
 }
 .nav-item a:hover{
     color: #fff;
+}
+body{
+    background: url("http://localhost/arun/yts-clone/assets/images/background.webp") no-repeat;
+    background-size: cover;
+    
+}
+.bg_shadow{
+    background-color: #1d1d1dc2;
+}
+.title_post{
+    color: #fff;
+}
+.post_year{
+    color: #919191;
+}
+.title_post, .post_year{
+    font-weight: bold;
+}
+.container{
+    padding-top: 60px;
+}
+@media (min-width:700px){
+    #collapsibleNavbar{
+        justify-content: right;
+    }
+    .navbar-brand{
+        margin-left: 58px;
+    }
+    .search_yts{
+        padding: 3px;
+        width: 260px;
+        margin-right: 5px;
+        margin-top: 4px;
+        color: #919191;
+    }
+    .home_heading{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .home_text{
+        width: 63%;
+        color: #bbb6b6;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .navbar{
+        height: 60px;
+        position: fixed;
+        width: 100%;
+    }
+    .hk_nav{
+        color: rgb(7, 184, 7) !important;
+    }
+    .reg_nav{
+        color: #fff !important;
+    }
+    .navbar-nav{
+        margin-right: 64px;
+    }
+    .notification_link{
+        color: #428bca;
+        font-weight: bold;
+    }
+    input[type="search"]::placeholder {
+        color: #919191;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 9px 4px 9px 40px;
+        background: transparent url("https://icons.getbootstrap.com/assets/icons/search.svg") no-repeat 13px center;
+      }
+      .movie_section_heading_1{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        border-bottom: 1px solid rgb(124, 123, 123);
+      }
+      .heading_movie_secion::before{
+        content: "#";
+        
+        color: green;
+      }
+      .headig_rss:before {
+        content: "#";
+      }
+      .headig_rss{
+        color: #428bca;
+        font-size: 18px;
+      }
+      .movie_section_1{
+        padding-top: 30px;
+      }
+      .image_post img{
+        border: 5px solid #fff;
+        border-radius: 4px;
+      }
 }
